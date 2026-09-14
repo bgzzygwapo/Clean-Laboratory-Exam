@@ -45,7 +45,7 @@ export function renderItems(){
 
 function handleSubmit(ev){
   ev.preventDefault();
-  const value = input.value && input.value.trim();
+  const value = input.value.trim();
   if(!value){
     // simple inline validation without alerts to avoid blocking tests
     input.setAttribute('aria-invalid','true');
