@@ -10,7 +10,7 @@ What I added:
 
 How to run locally:
 1. Clone the repository.
-2. Serve it with a local development server (do NOT open via file://). For example, using the VS Code Live Server extension, or with Python 3: `python -m http.server` then open http://localhost:8000
+2. Serve it with a local development server (do NOT open via file://). For example, using the VS Code Live Server extension, or with Python 3: `python -m http.server` then open [http://localhost:8000](http://localhost:8000)
 
 Notes:
 - JavaScript is implemented as ES modules (type="module").
