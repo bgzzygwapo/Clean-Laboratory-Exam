@@ -19,3 +19,4 @@ ul#item-list{list-style:none;padding:0;margin:0 0 1rem 0}
 li.item{display:flex;justify-content:space-between;align-items:center;background:#fbfdff;border:1px solid #eef2ff;padding:.5rem;border-radius:6px;margin-bottom:.5rem}
 .item .text{margin-right:1rem}
 .note{color:var(--muted);font-size:.85rem}
+.item button { background: #ef4444; }
