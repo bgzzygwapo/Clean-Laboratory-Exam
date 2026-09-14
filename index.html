@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Clean Laboratory Examination</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1>Clean Laboratory Examination</h1>
+    <p class="instructions">Complete the form below. JavaScript is written in modules (no inline JS).</p>
+
+    <form id="exam-form" aria-label="Exam form">
+      <label for="item-input">Item</label>
+      <input id="item-input" name="item" type="text" required maxlength="100" placeholder="Enter an item" />
+      <button id="add-btn" type="submit">Add</button>
+    </form>
+
+    <section>
+      <h2>Items</h2>
+      <ul id="item-list" aria-live="polite"></ul>
+      <button id="clear-btn">Clear All</button>
+    </section>
+
+    <footer>
+      <p class="note">This project follows the laboratory exam rules: separate JS modules, no inline JS, and no console errors.</p>
+    </footer>
+  </main>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
